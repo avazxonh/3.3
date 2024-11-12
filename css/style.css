@@ -40,6 +40,9 @@ body {
   line-height: 36px;
   letter-spacing: -2px;
 }
+.quicker {
+  color: #7551dc;
+}
 .grid-item2 {
   background-color: #7551dc;
   padding-top: 62px;
@@ -68,6 +71,10 @@ body {
   font-size: 18px;
   line-height: 20px;
   margin-left: 115px;
+  color: white;
+}
+.x {
+  color: #ffcc6a;
 }
 
 .grid-item3 {
@@ -107,7 +114,7 @@ body {
 }
 .grid-item5 {
   padding: 24px;
-  background-image: url(../images/illustrations\\(2\).png);
+  background-image: url(../images/illustrations\ \(2\).png);
   background-repeat: no-repeat;
   width: 256px;
   border-radius: 10px;
@@ -124,19 +131,54 @@ body {
   background-color: #ffcc6a;
   border-radius: 10px;
   width: 256px;
-  padding-top: 24px;
+  padding-to: 24px;
   padding-left: 24px;
   padding-right: 24px;
+  background-image: url(../images/illustrations\ \(3\).png);
+  background-repeat: no-repeat;
+  background-position: 0px 160px;
 }
 
 .grid-item6-heading {
   width: 208px;
   font-size: 35px;
   line-height: 28px;
-  letter-spacing: -2px; 
+  letter-spacing: -2px;
+  padding-bottom: 16px;
 }
 
 .grid-item7 {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 40px;
+  border-radius: 10px;
+  width: 256px;
+}
+.grid-item7-heading {
+  line-height: 58px;
+  letter-spacing: -3px;
+  font-size: 74px;
+}
+.grid-item7-paragraph {
+  padding-bottom: 38px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
 }
 .grid-item8 {
+  background-color: #7551dc;
+  border-radius: 10px;
+  width: 544px;
+  padding: 23px 24px;
+}
+.grid-item8-div {
+  display: flex;
+  gap: 11.32px;
+}
+.grid-item8-heading {
+  width: 257px;
+  color: #fff;
+  line-height: 36px;
+  font-size: 35px;
 }
