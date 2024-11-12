@@ -1,0 +1,142 @@
+/* dm-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/dm-sans-v15-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* dm-sans-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/dm-sans-v15-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+body {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+}
+
+.box {
+  display: grid;
+}
+.grid-item1 {
+  border-radius: 10px;
+  width: 256px;
+  background-color: #f9eee2;
+  padding-top: 78px;
+  padding-bottom: 78px;
+  padding-left: 32px;
+  padding-right: 32px;
+  font-size: 32px;
+}
+
+.grid-item1-heading {
+  width: 192px;
+  font-style: italic;
+  line-height: 36px;
+  letter-spacing: -2px;
+}
+.grid-item2 {
+  background-color: #7551dc;
+  padding-top: 62px;
+  padding-bottom: 62px;
+  padding-left: 32px;
+  padding-right: 32px;
+  width: 544px;
+  border-radius: 10px;
+}
+
+.grid-item2-heading {
+  line-height: 58px;
+  letter-spacing: -3px;
+  text-align: center;
+  width: 480px;
+  font-size: 64px;
+  font-style: italic;
+  color: white;
+}
+
+.grid-item2-img {
+  margin-left: 130px;
+}
+.grid-item2-paragraph {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  margin-left: 115px;
+}
+
+.grid-item3 {
+  width: 256px;
+  background-color: #dbd1fc;
+  padding: 50px 32px;
+  background-image: url(../images/illustrations.png);
+  background-position: center right;
+  background-repeat: no-repeat;
+  height: 603px;
+  border-radius: 10px;
+}
+.grid-item3-heading {
+  width: 192px;
+  font-size: 30px;
+  line-height: 28px;
+  letter-spacing: -2px;
+  margin-bottom: 366px;
+}
+
+.grid-item3-paragraph {
+  width: 192px;
+}
+
+.grid-item4 {
+  background-color: #ffcc6a;
+  padding: 24px;
+  width: 256px;
+  border-radius: 10px;
+}
+
+.grid-item4-heading {
+  line-height: 36px;
+  width: 208px;
+  letter-spacing: -2px;
+  font-size: 37px;
+}
+.grid-item5 {
+  padding: 24px;
+  background-image: url(../images/illustrations\\(2\).png);
+  background-repeat: no-repeat;
+  width: 256px;
+  border-radius: 10px;
+}
+
+.grid-item5-heading {
+  width: 208px;
+  font-size: 35px;
+  line-height: 28px;
+  letter-spacing: -2px;
+  padding-top: 20px;
+}
+.grid-item6 {
+  background-color: #ffcc6a;
+  border-radius: 10px;
+  width: 256px;
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.grid-item6-heading {
+  width: 208px;
+  font-size: 35px;
+  line-height: 28px;
+  letter-spacing: -2px; 
+}
+
+.grid-item7 {
+}
+.grid-item8 {
+}
